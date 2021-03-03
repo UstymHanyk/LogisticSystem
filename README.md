@@ -4,7 +4,7 @@
 - The user can track his order;
 - Orders will be delivered by the transport available 
 ***
-##UML diagram
+## UML diagram
 ![image](https://user-images.githubusercontent.com/25267338/109845059-68f6c800-7c55-11eb-8fb4-73ece2a8f0be.png)
 1. Item - a class with which you can describe the product to be delivered;
 2. Vehicle - displays the vehicle to which the delivery will be made, takes into account the availability of available transport;
@@ -12,7 +12,7 @@
 4. Order - contains all the information about the order and the user;
 5. LogisticsSystem - the main class that stores all information about users, orders and transportation. Has methods such as placeOrder (), trackOrder ().
 ***
-##Examples
+## Examples
 ```commandline
 >>> vehicles = [Vehicle(1), Vehicle(2)]
 
